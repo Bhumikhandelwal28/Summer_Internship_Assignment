@@ -1,0 +1,11 @@
+#using print function to print strings
+str=input("Enter the string")
+print(str)
+print("hello,world")
+print("My name is:","Bhumi","how are you?")
+name=input("Enter the name:")
+print(f"My name is: {name}")
+print("hello bhumi","hello",8,sep=' {} ',end=" ,,, ")
+print("Hello",end=" > ")
+print("Hello ,My name is Bhumi khandelwal\n""and I am currently in SKIT")
+print("bhu"+"mi")

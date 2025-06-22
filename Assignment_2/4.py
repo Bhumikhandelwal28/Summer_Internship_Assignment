@@ -10,17 +10,19 @@ for i in range(1, 6):
 total_marks = sum(marks)
 percentage = (total_marks / 500) * 100
 
-if percentage<23:
-        print("fail")
-elif percentage<50:
-        print("average")
-elif percentage<80:
-        print("good")
-else:
-        print("Excellent")
-
 # Display result
 print("\n--- Student Result ---")
 print(f"Name       : {name}")
 print(f"Class      : {student_class}")
 print(f"Percentage : {percentage:.2f}%")
+
+if percentage>=60:
+        print("Grade A")
+elif percentage>=50:
+        print("Grade B")
+elif percentage>=40:
+        print("Grade C")
+elif percentage >= 33:
+        print("Grade D")
+else:
+    print("Fail")
