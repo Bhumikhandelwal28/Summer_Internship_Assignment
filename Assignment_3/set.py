@@ -1,5 +1,5 @@
 #multiple values
-#unordered can add and remove items
+#unordered \ can add and remove items
 #unchangeable,unindexed,with curly brackets
 #empty set cannot be declared
 #duplicates not allowed
