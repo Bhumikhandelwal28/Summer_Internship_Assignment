@@ -1,0 +1,16 @@
+df.join()
+->Index of the right DataFrame (unless on= is used)
+->Joins mainly on index
+->Object-oriented: df1.join(df2)
+->'left' (keeps all rows from left DataFrame)
+->Less flexible (only one key via on=)
+->Needs lsuffix= and rsuffix= if duplicate columns exist
+->Fast joins when joining on index
+pd.merge()
+->Fast joins when joining on index
+->Joins on columns, can also join on index
+->Function-style: pd.merge(df1, df2, on='key')
+->'inner' (only matching rows from both sides)
+->Very flexible: multiple keys, custom suffixes
+->Has suffixes=('_x', '_y') by default
+->SQL-style joins: inner, left, right, outer
