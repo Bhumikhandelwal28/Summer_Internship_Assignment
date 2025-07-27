@@ -1,7 +1,7 @@
 import sqlite3
 import hashlib
 
-# --- S: Single Responsibility Principle ---
+# Single Responsibility Principle
 class DBManager:
     def __init__(self, db_name="user_system.db"):
         self.db_name = db_name
